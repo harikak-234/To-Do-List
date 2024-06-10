@@ -1,0 +1,101 @@
+body {
+    font-family: serif;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: relative;
+    background-color: lavenderblush;
+    border: 1px rgb(253, 207, 222) solid;
+    border-radius: 5px;
+    margin: 3em;
+    padding: 1em;
+    box-shadow: 5px 5px 5px rgb(255, 222, 233);
+}
+
+h1 {
+    color: rgb(126, 104, 147);
+    text-align: center;
+}
+
+.input {
+    flex: 1;
+    /* background-color: rgb(234, 193, 193); */
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#userInput {
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 20px;
+    border-radius: 20px;
+    border: none;
+    height: 3em;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.505);
+    font-size: medium;
+    color: rgb(56, 14, 14)
+}
+
+.add {
+    border-radius: 50%;
+    border-color: none;
+    height: 3em;
+    width: 3em;
+    cursor: pointer;
+    background-color: rgba(249, 244, 244, 0.505);
+}
+
+.add:hover {
+    box-shadow: inset 0 0 2px 1px rgb(250, 197, 214), inset 0 2px 4px 3px rgb(250, 197, 214);
+}
+
+.add:active {
+    background-color: rgb(250, 197, 214);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 1px;
+    border: 0px solid #ddd;
+    text-align: center;
+}
+
+.trash-icon {
+    color: rgb(255, 68, 68);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+tr td.checked {
+    background-color: red;
+    color: pink;
+}
+
+.checkbox-column {
+    width: 10%;
+}
+
+.task-column {
+    width: 80%;
+    text-align: left;
+}
+
+.action-column {
+    width: 10%;
+}
